@@ -1,8 +1,5 @@
 *.whl
 
-lib/*
-bin/*
-
 # Docker build artifacts (wheel, dev package, ccache)
 docker/*.tar.gz
 docker/*.tar.xz
