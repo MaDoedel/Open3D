@@ -4,6 +4,7 @@ namespace open3d {
 namespace filters {
 
     void Filter::filter() {
+        std::cout << "Applying Filter: ";
         filter_strategy_->apply(point_cloud_in_, point_cloud_out_);
     };
 
